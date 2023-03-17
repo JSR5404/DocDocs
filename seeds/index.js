@@ -1,22 +1,26 @@
 const sequelize = require('../config/connection');
-const seedPatients = require('./patient-seeds');
-const seedMedications = require('./medication-seeds');
-const seedBillings = require('./billing-seeds');
-const seedConditions = require('./condition-seeds');
+const { Patients, Project } = require('../models');
 
+const patientsData = require('./patientsData.json');
+const conditionData = require('./conditionData.json');
+const medicationData = require('./medicationData.json');
 
-const seedAll = async () => {
+const seedDatabase = async () => {
   await sequelize.sync({ force: true });
 
-  await seedAllPatients();
+  const patients = await User.bulkCreate(patientsData, {
+    individualHooks: true,
+    returning: true,
+  });
 
-  await seedAllMedications();
-
-  await seedAllBillings();
-
-  await seedAllConditions();
+  for (const project of conditionData) {
+    await Project.create({
+      ...project,
+      user_id: users[Math.floor(Math.random() * users.length)].id,
+    });
+  }
 
   process.exit(0);
 };
 
-seedAll();
+seedDatabase();

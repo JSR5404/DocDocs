@@ -1,0 +1,43 @@
+[
+    {
+      "name": "John Doe",
+      "dateOfBirth": "04-12-1994",
+      "email": "John@hotmail.com",
+      "password": "password1",
+      "conditions": "arthritic",
+      "medications": "Tremfya"
+    },
+    
+    {
+      "name": "jessica Jones",
+      "dateOfBirth": "02-25-1952",
+      "email": "jessicao@gmail.com",
+      "password": "password2",
+      "conditions": "bronchitis",
+      "medications": "Breztri"
+    },
+    {
+      "name": "Josh Williams",
+      "dateOfBirth": "02-25-1975",
+      "email": "josh700@aol.com",
+      "password": "password3",
+      "conditions": "chest pain, this patient is under testing",
+      "medications": "pain killers"
+    },
+    {
+        "name": "Quinton Smith",
+        "dateOfBirth": "08-21-2005",
+        "email": "quinton@aol.com",
+        "password": "password4",
+        "conditions": "chronic kidney disease",
+        "medications": "Kerendia"
+      },
+      {
+        "name": "Robert Burlington",
+        "dateOfBirth": "08-21-2011",
+        "email": "roberto@gmail.com",
+        "password": "password5",
+        "conditions": "cold sore throat, cough",
+        "medications": "Musinex"
+      }
+  ]
