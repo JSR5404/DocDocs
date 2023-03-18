@@ -1,0 +1,44 @@
+[
+    {
+      "name": "John Doe",
+      "dob": "04-12-1994",
+      "invoice": "123-9874329",
+      "notes": "John Doe has joint Pain, Stiffness, Swelling, Redness, Decreased range of motion",
+      "condition_id": "arthritic",
+      "medication_id": "Tremfya"
+    
+    },
+    
+    {
+      "name": "jessica Jones",
+      "dob": "02-25-1952",
+      "invoice": "123-9874329",
+      "notes": "Jessica Jones has an inflammation of the lining of your bronchial tubes",
+      "condition_id": "bronchitis",
+      "medication_id": "Breztri"
+    },
+    {
+      "name": "Josh Williams",
+      "dateOfBirth": "02-25-1975",
+      "invoice": "123-9830329",
+      "notes": "Josh Williams has a pain of chest area",
+      "condition_id": "chest pain, this patient is under testing",
+      "medication_id": "pain killers"
+    },
+    {
+        "name": "Quinton Smith",
+        "dateOfBirth": "08-21-2765",
+        "invoice": "123-9874329",
+        "notes": "Quinton Smith has excess fluid and waste from blood remain in the body",
+        "condition_id": "chronic kidney disease",
+        "medication_id": "Kerendia"
+      },
+      {
+        "name": "Robert Burlington",
+        "dateOfBirth": "08-21-2011",
+        "invoice": "123-9874349",
+        "notes": "Robert Burlington has cough, sore throat, and difficulty breathing",
+        "condition_id": "cold sore throat, cough",
+        "medication_id": "Musinex"
+      }
+  ]

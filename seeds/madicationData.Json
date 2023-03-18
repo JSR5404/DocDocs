@@ -1,0 +1,36 @@
+[
+    {
+      "name": "John Doe",
+      "description": "John Doe has joint Pain, Stiffness, Swelling, Redness, Decreased range of motion",
+      "usage_type": "100mg, once a day",
+      "treatment": "Tremfya"  
+      
+    },
+    {
+      "name": "jessica Jones",
+      "description": "Jessica Jones has an inflammation of the lining of your bronchial tubes",
+      "usage_type": "10mg, twice a day",
+      "treatment": "Breztri"
+    },
+    {
+      "name": "Josh Williams",
+      "description": "Josh Williams has a pain of chest area",
+      "usage_type": " as needed",
+      "treatment": "pain killer, tylenol"   
+    },
+   {
+      "name": "Quinton Smith",
+      "description": " Quinton Smith has excess fluid and waste from blood remain in the body ",
+      "usage_type": "100mg, three times a day",
+      "treatment": " dialysis, Kerendia, Tylenol"
+         
+    },
+   {
+      "name": "Robert Burlington",
+      "description": "Robert Burlington has cough, sore throat, and difficulty breathing",
+      "usage_type":"5mg, twice a day",
+      "treatment": "Musinex"
+        
+     }
+
+      ]
